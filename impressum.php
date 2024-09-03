@@ -176,7 +176,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <abbr title="Adresse">Adresse:</abbr> Am Musterweg 34<br>
                         <abbr title="Ort">Ort / PLZ :</abbr> Musterstadt, 79232 Mustern<br>
                         <abbr title="Email-Adresse">Email:</abbr> 
-                            <a href="mailto:FelixFrommherz@web.de">Mustermann(at)web(punkt)de</a>
+                            <a href="mailto:EMAILEINGEBEN@email.de">Mustermann(at)web(punkt)de</a>
                         </address>
                         <br>
                         <hr>
