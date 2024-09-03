@@ -11,6 +11,7 @@ Diese Website dient als digitale Bewerbung und stellt meine Fähigkeiten und Erf
 - **📁 Projektübersicht:** Eine Sammlung von Projekten, die ich im Laufe der Jahre entwickelt habe, inklusive FiveM Lua-Scripts und anderer Webentwicklungsprojekte.
 - **👤 Über mich:** Eine kurze Biografie über meinen beruflichen Werdegang und meine Interessen.
 - **📬 Kontakt:** Möglichkeit, mich über verschiedene soziale Plattformen oder direkt per E-Mail zu kontaktieren.
+- **📱 Mobilfreundlich:** Die Website ist vollständig für Handys und andere mobile Geräte optimiert, um eine nahtlose Benutzererfahrung überall zu gewährleisten.
 
 ## 💻 Technologien
 
