@@ -3,7 +3,7 @@ session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
-    $correctPassword = 'Blutwurst1'; // Setze hier dein Passwort
+    $correctPassword = ''; // Setze hier dein Passwort
 
     if ($password === $correctPassword) {
         $_SESSION['authenticated'] = true;
@@ -38,7 +38,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 mx-auto">
-                    <h1>Passwortgeschützt</h1>
+                    <h1>Aus Datenschutzgründen Passwortgeschützt</h1>
                     <form method="post">
                         <div class="mb-3">
                             <label for="password" class="form-label">Passwort:</label>
@@ -47,6 +47,11 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <button type="submit" class="btn btn-primary">Einloggen</button>
                         <?php if (isset($error)) { echo "<p class='text-danger mt-2'>$error</p>"; } ?>
                     </form>
+                    <!-- Passwortanfrage-Button -->
+                    <div class="mt-3">
+                        <p>Falls du das Passwort benötigst, kannst du es hier anfragen:</p>
+                        <a href="mailto:HIEREMAILANGEBEN?subject=Passwortanfrage&body=Sehr geehrter Herr MUSTERMANN,%0D%0A%0D%0Aich benötige bitte das Passwort für den Zugriff auf das Impressum.%0D%0A%0D%0AName:%20[Dein%20Name]%0D%0ANachname:%20[Dein%20Nachname]%0D%0AFirma:%20[Deine%20Firma]%0D%0A%0D%0AVielen%20Dank!" class="btn btn-secondary">Passwort anfragen</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,6 +62,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
 }
 
 ?>
+
 <!doctype html>
 <html lang="en" data-bs-theme="dark">
     <head>
