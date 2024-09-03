@@ -491,4 +491,36 @@ img {
   .cookie-consent {
     padding: 15px 10px;
   }
+
+  .impressum-box {
+	  background: var(--bgcolor);
+	  border: 2px solid var(--hlight);
+	  border-radius: 15px;
+	  padding: 20px;
+	  box-shadow: 0 0 20px rgba(226, 222, 218, 0.5);
+	  max-width: 800px;
+	  margin: 0 auto;
+	  color: var(--textcolor);
+	}
+
+	.impressum-box h2 {
+	  color: var(--hlight);
+	  text-transform: uppercase;
+	  margin-bottom: 20px;
+	}
+
+	.impressum-box p {
+	  font-size: 16px;
+	  text-align: justify;
+	  line-height: 1.6;
+	}
+
+	.impressum-box a {
+	  color: var(--hlight);
+	  text-decoration: none;
+	}
+
+	.impressum-box a:hover {
+	  text-decoration: underline;
+	}
 }
